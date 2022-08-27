@@ -1,0 +1,12 @@
+{"tasks":[
+    {
+        "id": 1,
+        "text": "Hacer una tarea",
+        "reminder": true
+    },
+    {
+        "id": 2,
+        "text": "Programar algo",
+        "reminder": false
+    }
+]} 
