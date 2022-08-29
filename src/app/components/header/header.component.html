@@ -1,6 +1,17 @@
 <header>
-    <h1>{{title}}</h1>
-    <app-button color="green" text="Add Task" (btnClick)="toggleAddTask()">
-    </app-button>
+  <h1>{{ title }}</h1>
+  <app-button
+    color="{{ showAddTask ? 'red' : 'green' }}"
+    text="{{ showAddTask ? 'Close' : 'Add' }}"
+    (btnClick)="toggleAddTask()"
+    *ngIf="hasRouter('/')"
+  >
+  </app-button>
 </header>
 <app-tasks></app-tasks>
+<footer class="foot">
+    <div class="cont">
+        <h6>Copyright @2022</h6>
+        <a href="/about">About</a>
+    </div>
+</footer>

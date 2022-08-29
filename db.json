@@ -1,9 +1,3 @@
 {
-  "tasks": [
-    {
-      "id": 2,
-      "text": "Programar algo",
-      "reminder": false
-    }
-  ]
+  "tasks": []
 }
